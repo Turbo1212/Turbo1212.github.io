@@ -8,6 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-##people
+
 
 马博文，南京大学新闻传播学院大三学生，研究兴趣计算传播学.
