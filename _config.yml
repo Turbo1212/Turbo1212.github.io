@@ -26,13 +26,13 @@ words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
-comments:
+comments                 :
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
+  disqus                 :
     shortname            :
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
+  facebook               :
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
@@ -46,7 +46,7 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : "690334107@qq.com"
   generatedFields:
     date:
       type               : "date"
@@ -62,16 +62,16 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
-twitter:
+twitter                  :
   username               : &twitter
-facebook:
+facebook                 :
   username               :
   app_id                 :
   publisher              :
 og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
-social:
+social                   :    
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
@@ -100,7 +100,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         :"666564"
   foursquare       :
   github           : "Turbo1212"
   google_plus      :
